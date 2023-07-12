@@ -135,5 +135,6 @@ footer {
 .new-product> button{
   font-size: 10px;
   padding: 8px 16px;
+  margin-left: auto;
 }
 
