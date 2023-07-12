@@ -1,0 +1,139 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --secondary: #ffffff;
+    --secondary-text:var(--black);
+    --primary:#E4E4E4;
+    --primary-text:var(--black)
+}
+
+
+.first-nav > .navbar-brand {
+    position: absolute;
+    left: 45%;
+    font-size: 1rem;
+  }
+  
+  
+  .container {
+    padding: 20px;
+  }
+
+
+  /* button */
+  .btn {
+    border-radius: 24px;
+    padding: 8px 16px;
+    margin-right: 10px;
+  }
+
+/* Sign Up button */
+  .btn-secondary {
+    background: var(--secondary);
+    color: var(--secondary-text);
+    border: 2px solid var(--white)
+    
+  }
+ .btn-secondary > .nav-link {
+    color: var(--secondary-text);
+    padding: 0;
+  }
+
+  /* .navbar-light .navbar-nav  .btn-secondary > .nav-link:hover {
+    color: var(--secondary);
+  } */
+
+  .btn-secondary:hover{
+    background-color: #E4E4E4;
+    border: 2px solid var(--white)
+  }
+  
+
+/* Log in Button */
+  .btn-outline-primary{
+    background: transparent;
+    color: var(--secondary-text);
+    border: 2px solid var(--white);
+    
+  }
+ .btn-outline-primary > .nav-link {
+    color: var(--secondary-text);
+    padding: 0;
+  }
+ .btn-outline-primary > .nav-link:hover {
+    background-color: #E4E4E4;
+  }
+
+  .btn-outline-primary:hover{
+    background-color: #E4E4E4;
+    border: 2px solid var(--white)
+  }
+  
+.nav-2{
+    background-color: #E4E4E4;
+}
+
+.nav-button-container {
+    margin-left:auto;
+  }
+
+
+/* @media (max-width: 998px) {
+    footer {
+        background-color: red;
+      } 
+}*/
+  /* this is going to apply css on screen sizes up to a maximum of 768px */
+@media (max-width: 768px) {
+    /* .nav-button-container {
+        margin-left: 0;
+      } */
+
+      /* > is a child selector. any classname of navbar-brand inside the class name of first-nav will apply the following css*/
+      .first-nav > .navbar-brand {
+        position: relative;
+        left: 0;
+      }
+}
+
+.second-nav > .form-inline{
+    margin-left: auto;
+  }
+
+.nav-img-heart-checkout{
+    width: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slide-image{
+  width: auto;
+  height: 617px;
+}
+
+footer {
+    background-color: #f5f5f5;
+
+  }
+
+  /* .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  } */
+
+.follow-us{
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+  }
+
+  .browse-now{
+    text-align: center;
+  }
+
+.new-product> button{
+  font-size: 10px;
+  padding: 8px 16px;
+}
+
