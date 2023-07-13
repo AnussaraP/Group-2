@@ -129,6 +129,31 @@ footer {
 .new-product> button{
   font-size: 10px;
   padding: 8px 16px;
-  margin-left: auto;
+}
+
+.first-container-info{
+  margin: 20px;
+}
+.first-container-info > button{
+  margin-top: 20px;
+}
+
+.home-first-container{
+  background-color: #E4E4E4;
+}
+
+
+/* Login-page */
+.login-form{
+  background-color: #E4E4E4;
+  padding: 40px;
+}
+
+.login-form-buttom{
+  margin-bottom: 50px;
+  border-radius: 0;
+  background-color: white;
+  font-weight: bold;
+
 }
 
