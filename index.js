@@ -1,11 +1,5 @@
-
-// const incrementNumber = document.getElementById("incrementValue");
-
 let count = 0;
 
-// incrementNumber.innerHTML = count;
-
-// Function to increment count
 const incrementValue = () => {
 
     count++;
@@ -14,4 +8,3 @@ const incrementValue = () => {
     basketAmount.innerHTML = count;
   };
 
-//   incrementNumber.addEventListener("click", handleIncrement);
