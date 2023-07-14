@@ -130,19 +130,25 @@ footer {
   font-size: 10px;
   padding: 8px 16px;
 }
-
+/* first container */
 .first-container-info{
-  margin: 20px;
+  margin: 40px;
 }
-.first-container-info > button{
-  margin-top: 20px;
+.first-container-text > button{
+  margin-top: 40px;
+} 
+.first-container-text{
+  text-align: left;
+  margin-left: 40px;
 }
-
-.home-first-container{
+/* .home-first-container{
   background-color: #E4E4E4;
+} */
+
+.first-container-img{
+  width: 638px;
+  height: 384px;
 }
-
-
 /* Login-page */
 .login-form{
   background-color: #E4E4E4;
@@ -157,3 +163,26 @@ footer {
 
 }
 
+
+/* images */
+.exanple1{
+  width: 500px;
+  
+}
+
+.basket {
+  position: relative;
+}
+
+#basketAmount {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  padding: 5px;
+  background-color: red;
+  border-radius: 50%;
+  height: 25px;
+  text-align: center;
+  width: 25px;
+  display: none;
+}

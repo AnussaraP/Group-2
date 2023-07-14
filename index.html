@@ -83,7 +83,13 @@
           src="imgs/img-header/nav-checkout.png"
         />
 
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Check Out</button>
+        <span class="basket">
+            <img
+            class="nav-img-heart-checkout"
+            src="imgs/img-header/nav-checkout.png"
+            />
+            <span id="basketAmount"></span>
+        </span>
       </div>
     </nav>
   </header>
@@ -142,41 +148,48 @@
 
 <!-- slide show end here -->
 
-
-<div class="container">
-    <div class="row home-first-container">
-      <div class="col-sm first-container-info">
-        <h5>Short mini skirt</h5>
-        <div><h8>Name:</h8> Name of product 1</div>
-        <div>Description:this is about abc </div>
-        <div>Price: £40</div>
-        <button href="#" class="btn btn-outline-success">Add to basket</button>
+<!-- Container 1 start -->
+<div class="container ">
+    <div class="row border home-first-container">
+      <div class="col-md first-container-info">
+        <div class="first-container-text">
+            <h5>Short mini skirt</h5>
+         <div><h8>Name:</h8> Name of product 1</div>
+         <div>Description:this is about abc </div>
+            <div>Price: £40</div>
+            
+            <button onclick="incrementValue()"  href="#" class="btn btn-outline-success">Add to basket</button>
+        </div>
+        
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <div class="container">
-            <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+            <a href="view-product.html"><img class="exanple1" src="imgs/img-FirstContainer/example-1.jpeg" /></a>
           </div>
       </div>
     </div>
 
-    <div class="row home-first-container">
-        <div class="col-sm">
+    <div class="row border border-secondary home-first-container">
+        <div class="col-sm ">
             <div class="container">
-                <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+                <a href="view-product.html"><img class="exanple1" src="/imgs/img-FirstContainer/example-1.jpeg" /></a>
               </div>
           </div>
 
-        <div class="col-sm">
+        <div class="col-sm first-container-info">
+            <div class="first-container-text">
           <h5>Long pink summer dress</h5>
           <div><h8>Name:</h8> Name of product 2</div>
           <div>Description:this is about abc </div>
           <div>Price: £40</div>
-          <button class="btn btn-outline-success">Add to basket</button>
+          <button onclick="incrementValue()"  class="btn btn-outline-success">Add to basket</button>
+            </div>
+        </div>
         </div>
 
       </div>
-  </div>
-
+ 
+    </div>
 
   <div class="container">
     <div> <h1>New Products</h1> </div>
@@ -184,38 +197,40 @@
     <div class="row">
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>    
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn btn-outline-success">Add to basket</button>
+            <button  onclick="incrementValue()"  class="btn btn-outline-success">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>
+           
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn  btn-outline-success ">Add to basket</button>
+            <button onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>
+ 
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn  btn-outline-success ">Add to basket</button>
+            <button  onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       
@@ -229,38 +244,41 @@
     <div class="row">
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>
+          
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn  btn-outline-success ">Add to basket</button>
+            <button onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>
+        
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn  btn-outline-success ">Add to basket</button>
+            <button  onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>£25</h6>
             <h6>New</h6>
+            <h6>£25</h6>
+           
         </div>
         <h5>Red flower dress</h5>
         <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
         <div class="new-product">
             <h6>Description</h6>        
-            <button class="btn  btn-outline-success ">Add to basket</button>
+            <button  onclick="incrementValue()" class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       
@@ -268,7 +286,7 @@
   </div>
 
   <div class="container browse-now ">
-    <button class="btn  btn-outline-success ">Browse Now</button>
+    <button onclick="incrementValue()"  class="btn  btn-outline-success ">Browse Now</button>
   </div>
 
 
@@ -406,5 +424,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
 </body>
 </html>
