@@ -8,3 +8,5 @@ const incrementValue = () => {
     basketAmount.innerHTML = count;
   };
 
+
+

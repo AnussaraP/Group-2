@@ -1,0 +1,65 @@
+.meet-our-leaders-container img{
+width: 200px;
+height: 200px;
+border-radius:50%;
+}
+
+/*Meet Our Leaders Photos*/
+/* .column {
+  float:left;
+  width:33.33%;
+  padding:5px;
+} */
+
+.row::after{
+  clear:both;
+  display:table;
+}
+
+.our-mission-container {
+  text-align: center;
+  padding: 20px;
+  
+}
+.ourMission{
+  margin-top: 50px;
+}
+
+.meet-our-leaders-container {
+  background: #E4E4E4;
+  text-align: center;
+  padding:50px;
+
+}
+
+.newsletter {
+    background: lightgrey;
+    text-align: center;
+    padding: 5px;
+}
+
+.groupic > .aboutbtn{
+  width:50px;
+}
+
+.grouppic{
+  margin:20px;
+}
+
+.form-group .form-control{
+width: 500px;
+}
+.nav{
+  background-color: #E4E4E4;
+}
+
+.meet-our-leaders-container figcaption{
+  margin-top: 15px;
+}
+
+.aboutUs-cover-image{
+  width: 2000px;
+  height: 1000px;
+}
+
+
