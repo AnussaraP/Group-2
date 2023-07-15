@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="index.css" />
   </head>
 
-  <header>
-    <nav class="first-nav navbar navbar-expand-lg navbar-light bg-light">
+  <header class="fixed-top">
+    <nav class="first-nav navbar navbar-expand-lg navbar-light bg-light ">
       <a class="navbar-brand" href="#">Logo</a>
       
       <div class="nav-button-container">
@@ -31,7 +31,7 @@
       </div>
     </nav>
 
-    <nav class="second-nav navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="second-nav navbar navbar-expand-lg navbar-light bg-light ">
       <button
         class="navbar-toggler"
         type="button"
@@ -43,6 +43,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
@@ -365,16 +366,17 @@
             <div class="row">
               <div class="col-sm">
                 <h6>Follow us</h6>
-                <img class="follow-us" src="imgs/img-footer/ig.png">
-                <img class="follow-us"src="imgs/img-footer/fb.png">
-                <img class="follow-us"src="imgs/img-footer/linkedin.png">
-                <img class="follow-us"src="imgs/img-footer/tw.png">
+                <a href="https://www.instagram.com/codefirstgirls/" target="_blank">  <img class="follow-us"  src="imgs/img-footer/ig.png"> </a>
+                <a href="https://www.facebook.com/codefirstgirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/fb.png"></a>
+                <a href="https://www.linkedin.com/company/code-first-girls/" target="_blank"> <img class="follow-us"  src="imgs/img-footer/linkedin.png"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCodeFirstGirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/tw.png"></a>
               </div>
 
             <div class="col-md-3">
               <h6>Navigation</h6>
               <ul class="list-unstyled">
-                <li>Home</li>
+                <a href="index.html"> <li  >Home</li></a>
+                
                 <li>Products</li>
                 <li>About us</li>
               </ul>
@@ -390,7 +392,7 @@
               <h6>Support</h6>
               <ul class="list-unstyled">
                 <li>Contact us</li>
-                <li>Login</li>
+                <a href="login.html"><li>Login</li></a>
                 <li>Join us</li>
               </ul>
             </div>
