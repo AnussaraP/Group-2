@@ -141,10 +141,13 @@ footer {
   text-align: left;
   margin-left: 40px;
 }
-/* .home-first-container{
-  background-color: #E4E4E4;
-} */
-
+.home-first-container img{
+  height: 500px; 
+  width:auto;
+} 
+.home-second-container img{
+height: 400px;
+}
 .first-container-img{
   width: 638px;
   height: 384px;
@@ -174,7 +177,7 @@ footer {
   position: relative;
 }
 
-#basketAmount {
+#basketAmount{
   position: absolute;
   top: -10px;
   left: 0;
@@ -185,4 +188,26 @@ footer {
   text-align: center;
   width: 25px;
   display: none;
+  font-size: 10px;
+}
+.love{
+  position: relative;
+}
+#loveItems{
+  position: absolute;
+  background-color: pink;
+  top: -10px;
+  left: 0px;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  height: 25px;
+  text-align: center;
+  width: 25px;
+  display: none;
+
+}
+
+.home-new{
+  color: red;
 }

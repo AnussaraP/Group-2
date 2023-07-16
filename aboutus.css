@@ -21,9 +21,9 @@ border-radius:50%;
   padding: 20px;
   
 }
-.ourMission{
+/* .ourMission{
   margin-top: 50px;
-}
+} */
 
 .meet-our-leaders-container {
   background: #E4E4E4;
@@ -58,8 +58,8 @@ width: 500px;
 }
 
 .aboutUs-cover-image{
-  width: 2000px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
 }
 
 

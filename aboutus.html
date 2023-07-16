@@ -20,7 +20,8 @@
 
   <header class="">
     <nav class="first-nav navbar navbar-expand-lg navbar-light bg-light ">
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="index.html"><img src="imgs/My project.png" style="height: 140px;
+        width:auto; padding: 5px; margin-top: 10px;"></a>
       
       <div class="nav-button-container">
         <button class="btn btn-outline-primary">
@@ -47,19 +48,19 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
+              >Home</a
             >
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Products <span class="sr-only">(current)</span></a
+          <li class="nav-item">
+            <a class="nav-link" href="productspage.html"
+              >Products </a
             >
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="aboutus.html"
               >About Us <span class="sr-only">(current)</span></a
             >
           </li>
@@ -76,10 +77,14 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
       <div>
-        <img
+        <!-- <span class="love">
+          <img
           class="nav-img-heart-checkout"
           src="imgs/img-header/nav-heart.png"
         />
+        <span id="loveItems"></span>
+        </span> -->
+       
         <span class="basket">
             <img
             class="nav-img-heart-checkout"
@@ -118,7 +123,8 @@
 
 
     <!-- Our Mission -->
-    <div class="our-mission-container">
+    <div id="mission" class="our-mission-container align-self-center">
+
           <div class="row">
             <div class="col-md-5 ourMission">
               <h1>
@@ -139,7 +145,7 @@
     </div>
 
     <!-- Meet Our Leaders -->
- <div class="meet-our-leaders-container">
+ <div id="ourTeam" class="meet-our-leaders-container">
           <header>
             <h1>Meet Our Leaders</h1>  
           </header> 
@@ -179,7 +185,8 @@
 
 <div class="container form-container">
    <header>
-     <h1>Join Our Mailing List </h1> 
+    <a><h1 id="contactUs">Contact us</h1> </a>
+     
     </header>
     <form>
       <div class="form-group ">
@@ -205,47 +212,48 @@
 </div>
 
 
-  <footer>
-    <div class="container">
-      <div class="row justify-content-center">
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
 
-     <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h6>Follow us</h6>
-            <a href="https://www.instagram.com/codefirstgirls/" target="_blank">  <img class="follow-us"  src="imgs/img-footer/ig.png"> </a>
-            <a href="https://www.facebook.com/codefirstgirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/fb.png"></a>
-            <a href="https://www.linkedin.com/company/code-first-girls/" target="_blank"> <img class="follow-us"  src="imgs/img-footer/linkedin.png"></a>
-            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCodeFirstGirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/tw.png"></a>
-          </div>
+   <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h6>Follow us</h6>
+          <a href="https://www.instagram.com/codefirstgirls/" target="_blank">  <img class="follow-us"  src="imgs/img-footer/ig.png"> </a>
+          <a href="https://www.facebook.com/codefirstgirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/fb.png"></a>
+          <a href="https://www.linkedin.com/company/code-first-girls/" target="_blank"> <img class="follow-us"  src="imgs/img-footer/linkedin.png"></a>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FCodeFirstGirls" target="_blank"> <img class="follow-us"  src="imgs/img-footer/tw.png"></a>
+        </div>
 
-        <div class="col-md-3">
-          <h6>Navigation</h6>
-          <ul class="list-unstyled">
-            <a href="index.html"> <li  >Home</li></a>
-            
-            <li>Products</li>
-            <li>About us</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h6>Company</h6>
-          <ul class="list-unstyled">
-            <li>Our mission and vision</li>
-            <li>Our team</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h6>Support</h6>
-          <ul class="list-unstyled">
-            <li>Contact us</li>
-            <a href="login.html"><li>Login</li></a>
-            <li>Join us</li>
-          </ul>
-        </div>
+      <div class="col-md-3">
+        <h6>Navigation</h6>
+        <ul class="list-unstyled">
+          <a href="index.html"> <li  >Home</li></a>
+          <a href="productspage.html"><li>Products</li></a>
+          <a href="aboutus.html"><li>About us</li></a>
+
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Company</h6>
+        <ul class="list-unstyled">
+          <a href="aboutus.html#mission"> <li>Our mission and vision</li></a>
+        <a href="aboutus.html#ourTeam"><li>Our team</li></a>
+          
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Support</h6>
+        <ul class="list-unstyled">
+          <a href="aboutus.html#contactUs"><li>Contact us</li></a>
+          <a href="login.html"><li>Login</li></a>
+          <a href="login.html"><li>Join us</li></a>
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
 
     <script

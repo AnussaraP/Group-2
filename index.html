@@ -20,13 +20,14 @@
 
   <header class="fixed-top">
     <nav class="first-nav navbar navbar-expand-lg navbar-light bg-light ">
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="index.html"><img src="imgs/My project.png" style="height: 140px;
+        width:auto; padding: 5px; margin-top: 10px;"></a>
       
       <div class="nav-button-container">
         <button class="btn btn-outline-primary">
           <a class="nav-link" href="login.html">Log in</a>
         </button>
-        <button class="btn btn-secondary" href="#">
+        <button class="btn btn-secondary" href="login.html">
           <a class="nav-link" href="login.html">Sign Up</a>
         </button>
       </div>
@@ -52,15 +53,15 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Products <span class="sr-only">(current)</span></a
+          <li class="nav-item">
+            <a class="nav-link" href="productspage.html"
+              >Products</a
             >
           </li>
 
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="aboutus.html"
-              >About Us <span class="sr-only">(current)</span></a
+              >About Us</a
             >
           </li>
         </ul>
@@ -75,11 +76,14 @@
         />
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
-      <div>
-        <img
+        <span class="love">
+          <img
           class="nav-img-heart-checkout"
           src="imgs/img-header/nav-heart.png"
         />
+        <span id="loveItems"></span>
+        </span>
+
         <span class="basket">
             <img
             class="nav-img-heart-checkout"
@@ -87,7 +91,7 @@
             />
             <span id="basketAmount"></span>
         </span>
-      </div>
+    
     </nav>
   </header>
 
@@ -143,25 +147,24 @@
       </div>
     </div>
 
-<!-- slide show end here -->
 
 <!-- Container 1 start -->
 <div class="container ">
     <div class="row border home-first-container">
       <div class="col-md first-container-info">
         <div class="first-container-text">
-            <h5>Short mini skirt</h5>
-         <div><h8>Name:</h8> Name of product 1</div>
-         <div>Description:this is about abc </div>
-            <div>Price: £40</div>
-            
-            <button onclick="incrementValue()"  href="#" class="btn btn-outline-success">Add to basket</button>
+            <h5>Summer dress</h5>
+         <div>Description: Barely use dres. Still in a good condition.</div>
+            <div>Price: £3.00</div>
+            <div>Size: 8</div>
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>
+            <button onclick="incrementValue()" class="btn btn-outline-success">Add to basket</button>
         </div>
         
       </div>
       <div class="col-md">
         <div class="container">
-            <a href="view-product.html"><img class="exanple1" src="imgs/img-FirstContainer/example-1.jpeg" /></a>
+            <a href="view-product.html"><img class="exanple1" src="imgs/img-products/dress1.jpeg" /></a>
           </div>
       </div>
     </div>
@@ -169,16 +172,17 @@
     <div class="row border border-secondary home-first-container">
         <div class="col-sm ">
             <div class="container">
-                <a href="view-product.html"><img class="exanple1" src="imgs/img-FirstContainer/example-1.jpeg" /></a>
+                <a href="view-product.html"><img class="exanple1" src="imgs/img-products/dress1.webp" /></a>
               </div>
           </div>
 
         <div class="col-sm first-container-info">
             <div class="first-container-text">
-          <h5>Long pink summer dress</h5>
-          <div><h8>Name:</h8> Name of product 2</div>
-          <div>Description:this is about abc </div>
-          <div>Price: £40</div>
+          <h5>Black cute flower dress</h5>
+          <div>Description:Very cute dress fro New look. </div>
+          <div>Price: £5.50</div>
+          <div>Size: 10</div>
+          <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>
           <button onclick="incrementValue()"  class="btn btn-outline-success">Add to basket</button>
             </div>
         </div>
@@ -191,42 +195,45 @@
   <div class="container">
     <div> <h1>New Products</h1> </div>
    
-    <div class="row">
-      <div class="col-sm">
+    <div class="row home-second-container">
+      <div class="col-sm ">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>    
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"><img src="imgs/img-products/dress2.jpeg" /></a>
         <div class="new-product">
-            <h6>Description</h6>        
+            <h6>Description</h6>   
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>     
             <button  onclick="incrementValue()"  class="btn btn-outline-success">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>
            
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"> <img src="imgs/img-products/linen skirt.jpg" /></a>
         <div class="new-product">
             <h6>Description</h6>        
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>
             <button onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>
  
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"><img src="imgs/img-products/polka dot shirt.jpg" /></a>
         <div class="new-product">
-            <h6>Description</h6>        
+            <h6>Description</h6>   
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>     
             <button  onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
@@ -236,45 +243,46 @@
 
 
   <div class="container">
-    <div> <h1>New Products</h1> </div>
-   
-    <div class="row">
+    <div class="row home-second-container">
       <div class="col-sm">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>
           
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"><img src="imgs/img-products/top1.jpeg" /></a>
         <div class="new-product">
-            <h6>Description</h6>        
+            <h6>Description</h6>     
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>   
             <button onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>
         
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"><img src="imgs/img-products/shoes1.jpeg" /></a>
         <div class="new-product">
-            <h6>Description</h6>        
+            <h6>Description</h6>  
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>      
             <button  onclick="incrementValue()"  class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
       <div class="col-sm">
         <div> 
-            <h6>New</h6>
+            <h6 class="home-new">New</h6>
             <h6>£25</h6>
            
         </div>
         <h5>Red flower dress</h5>
-        <img src="imgs/img-slide-show/yellow-flowers.jpeg" />
+        <a href="view-product.html"><img src="imgs/img-products/cashmere jumper.jpg" /></a>
         <div class="new-product">
-            <h6>Description</h6>        
+            <h6>Description</h6>  
+            <button onclick="loveIncrementValue()" class="btn btn-outline-success">	&hearts;</button>      
             <button  onclick="incrementValue()" class="btn  btn-outline-success ">Add to basket</button>
         </div>
       </div>
@@ -283,7 +291,9 @@
   </div>
 
   <div class="container browse-now ">
-    <button onclick="incrementValue()"  class="btn  btn-outline-success ">Browse Now</button>
+    <a href="productspage.html">
+    <button class="btn  btn-outline-success ">Browse Now</button>
+  </a>
   </div>
 
 
@@ -318,12 +328,13 @@
     </div>
   </div>
 
+  <!-- use Media Object here -->
   <div class="container">
     <h1>What our customers say?</h1>
-    <h6>this will be review from customer</h6>
+    <h6>this will be review from customers</h6>
     <div class="row">
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; padding:10px">
             <h6>Felix Jimoh</h6>
             <div>*****</div>
             <div class="card-body">
@@ -332,7 +343,7 @@
           </div>
       </div>
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; padding:10px">
             <h6>David T.</h6>
             <div>*****</div>
             <div class="card-body">
@@ -341,7 +352,7 @@
           </div>
       </div>
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; padding:10px">
             <h6>Susan Lanre</h6>
             <div>*****</div>
             <div class="card-body">
@@ -372,24 +383,25 @@
               <h6>Navigation</h6>
               <ul class="list-unstyled">
                 <a href="index.html"> <li  >Home</li></a>
-                
-                <li>Products</li>
-                <li>About us</li>
+                <a href="productspage.html"><li>Products</li></a>
+                <a href="aboutus.html"><li>About us</li></a>
+
               </ul>
             </div>
             <div class="col-md-3">
               <h6>Company</h6>
               <ul class="list-unstyled">
-                <li>Our mission and vision</li>
-                <li>Our team</li>
+                <a href="aboutus.html#mission"> <li>Our mission and vision</li></a>
+              <a href="aboutus.html#ourTeam"><li>Our team</li></a>
+                
               </ul>
             </div>
             <div class="col-md-3">
               <h6>Support</h6>
               <ul class="list-unstyled">
-                <li>Contact us</li>
+                <a href="aboutus.html#contactUs"><li>Contact us</li></a>
                 <a href="login.html"><li>Login</li></a>
-                <li>Join us</li>
+                <a href="login.html"><li>Join us</li></a>
               </ul>
             </div>
           </div>
