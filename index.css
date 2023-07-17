@@ -77,6 +77,10 @@
     margin-left:auto;
   }
 
+  .form-control{
+    width: auto;
+    margin-right: 5px;
+  }
 
 /* @media (max-width: 998px) {
     footer {
