@@ -43,6 +43,7 @@ height: 500px;
   -ms-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
   text-align: center;
+  width: 400px;
 }
 
 .image_text .product_info:hover {
