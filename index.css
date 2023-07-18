@@ -106,13 +106,20 @@
   height: auto;
 } 
 
+.slide-image{
+  height: 400px;
+}
+
 
 @media (max-width: 575.98px) { 
   .home-first-container img{
     height: auto;
     width: 300px;
 }
-  
+.slide-image{
+  height: 200px;
+}
+
  }
 
  
@@ -126,10 +133,7 @@
     margin-right: 10px;
 }
 
-.slide-image{
-  width: auto;
-  height: auto;
-}
+
 
 footer {
     background-color: #f5f5f5;
