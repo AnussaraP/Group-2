@@ -12,6 +12,8 @@ To view the website please visit: https://anussarap.github.io/Group-2/
 - Also, 2 additional pages:
     - View a product page
     - Sign-up/Log-in page
-- The user can add products to the basket or save them as favourite items. 
+- The user can add products to the basket or save them as favourite items.
+- Responsive for iPhone 12
+
 
 
