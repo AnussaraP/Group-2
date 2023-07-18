@@ -100,6 +100,22 @@
       }
 }
 
+
+.home-first-container img{
+  width: 400px;
+  height: auto;
+} 
+
+
+@media (max-width: 575.98px) { 
+  .home-first-container img{
+    height: auto;
+    width: 300px;
+}
+  
+ }
+
+ 
 .second-nav > .form-inline{
     margin-left: auto;
   }
@@ -112,7 +128,7 @@
 
 .slide-image{
   width: auto;
-  height: 617px;
+  height: auto;
 }
 
 footer {
@@ -145,17 +161,11 @@ footer {
   text-align: left;
   margin-left: 40px;
 }
-.home-first-container img{
-  height: 500px; 
-  width:auto;
-} 
+
 .home-second-container img{
 height: 400px;
 }
-.first-container-img{
-  width: 638px;
-  height: 384px;
-}
+
 /* Login-page */
 .login-form{
   background-color: #E4E4E4;
@@ -168,13 +178,6 @@ height: 400px;
   background-color: white;
   font-weight: bold;
 
-}
-
-
-/* images */
-.exanple1{
-  width: 500px;
-  
 }
 
 .basket {
