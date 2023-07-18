@@ -110,6 +110,12 @@
   height: 400px;
 }
 
+.first-nav img{
+ height: 67px;
+  width:auto; 
+  padding: 5px; 
+  margin-top: 5px;
+}
 
 @media (max-width: 575.98px) { 
   .home-first-container img{
@@ -120,6 +126,12 @@
   height: 200px;
 }
 
+.first-nav img{
+  height: 45px;
+}
+.form-control {
+  width: 120px;
+}
  }
 
  
@@ -129,8 +141,8 @@
 
 .nav-img-heart-checkout{
     width: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
